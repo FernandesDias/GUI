@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatrizOliveira", "BeatrizOliveira\BeatrizOliveira.csproj", "{490AC833-937E-4CD0-95FE-EE686D339AA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "BeatrizOliveira\GUI.csproj", "{490AC833-937E-4CD0-95FE-EE686D339AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{DEAB29A8-D3DD-4FBF-9AD6-B9305453F237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{D513EDE3-23E3-4D22-8724-1D0E33596EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{9C284507-CCA8-430D-A309-5E151E1ACE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{490AC833-937E-4CD0-95FE-EE686D339AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490AC833-937E-4CD0-95FE-EE686D339AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490AC833-937E-4CD0-95FE-EE686D339AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAB29A8-D3DD-4FBF-9AD6-B9305453F237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAB29A8-D3DD-4FBF-9AD6-B9305453F237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAB29A8-D3DD-4FBF-9AD6-B9305453F237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAB29A8-D3DD-4FBF-9AD6-B9305453F237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D513EDE3-23E3-4D22-8724-1D0E33596EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D513EDE3-23E3-4D22-8724-1D0E33596EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D513EDE3-23E3-4D22-8724-1D0E33596EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D513EDE3-23E3-4D22-8724-1D0E33596EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C284507-CCA8-430D-A309-5E151E1ACE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C284507-CCA8-430D-A309-5E151E1ACE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C284507-CCA8-430D-A309-5E151E1ACE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C284507-CCA8-430D-A309-5E151E1ACE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
